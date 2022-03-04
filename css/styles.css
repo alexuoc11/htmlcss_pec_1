@@ -106,11 +106,22 @@ figure{
     justify-content: center;
     width: 750px;
     height: 480px;
+    margin-bottom: 10px;
+}
+
+.img_possession {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 750px;
     padding-bottom: 10px;
 }
 
 figure figcaption{
-    font-size:small;
+    font-size: small;
+    text-align: center;
+    margin: 10px 0px;
+    font-family: Georgia, Times, serif;
 }
 
 figure a{
@@ -129,4 +140,11 @@ p {
     font-family: Georgia, Times, serif;
     font-weight: lighter;
     line-height: 30px;
+}
+
+h3 {
+    font-size: xx-large;
+    font-weight: bold;
+    text-align: left;
+    margin-bottom: 0;
 }
