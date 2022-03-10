@@ -1,9 +1,9 @@
-/* VARIABLES */
+/* -----------------------VARIABLES----------------------- */
 :root {
     --color-red: #ce2525;
 }
 
-/* BODY, MAIN, DIV */
+/* -----------------------BODY, MAIN, DIV----------------------- */
 *{
     box-sizing: border-box;
 }
@@ -25,7 +25,17 @@ div {
     margin: 0 30%;
 }
 
-/* HEADER */
+div.red_div {
+    width: 40%;
+    margin-bottom: 20px;
+}
+
+div.h3_div{
+    width: 40%;
+    text-align: left;
+}
+
+/* -----------------------HEADER----------------------- */
 .body_header {
     display: flex;
     align-items: center;
@@ -39,7 +49,7 @@ div {
     height: 100px;
 }
 
-/* NAVIGATION */
+/* -----------------------NAVIGATION----------------------- */
 .navigation {
     display: flex;
     justify-content: center;
@@ -66,12 +76,13 @@ div {
     padding-bottom: 5px;
 }
 
-/* ARTICLE */
+/* -----------------------ARTICLE----------------------- */
 article {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    margin: 0;
 }
 
 .article_header{
@@ -98,7 +109,7 @@ article {
     color: grey;
 }
 
-/* TEXT STYLE */
+/* -----------------------TEXT STYLE----------------------- */
 .index p{
     font-family: Georgia, Times, serif;
 }
@@ -120,7 +131,10 @@ h3 {
     margin-bottom: 5px;
     margin-top: 10px;
     text-shadow: 0px 1px, 1px 0px, 1px 1px;
-    width: 40%;
+}
+
+h3 a{
+    color: #ce2525;
 }
 
 h2{
@@ -190,13 +204,14 @@ dt {
     line-height: 30px;
 }
 
-/* IMAGES */
+/* -----------------------IMAGES--------------------------------- */
 figure{
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     background-color: white;
+    width: 40%;
     padding: 10px;
 }
 
@@ -216,7 +231,7 @@ figure a{
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 1250px;
+    width: 100%;
     height: 800px;
     margin-bottom: 10px;
 }
@@ -225,7 +240,7 @@ figure a{
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 1250px;
+    width: 100%;
     padding-bottom: 10px;
 }
 
@@ -233,8 +248,12 @@ figure a{
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 1250px;
+    width: 100%;
     padding-bottom: 10px;
+}
+
+.img_platform {
+    width: 100%;
 }
 
 hr.dotted {
@@ -242,7 +261,7 @@ hr.dotted {
     border-top: 1px dashed black;
 }
 
-/* QUOTE BLOCK (About.html) */
+/* -----------------------QUOTE BLOCK (About.html)----------------------- */
 .quote_block {
     background-color: white;
     width: 30%;
@@ -260,7 +279,7 @@ hr.dotted {
     font-size: 28px;
 }
 
-/* AUTHOR BLOCK (Index.html) */
+/* -----------------------AUTHOR BLOCK (Index.html)----------------------- */
 div.authorblock{
     display: flex;
     align-items: center;
@@ -296,7 +315,7 @@ div.authorblock p i{
     font-family: Georgia, Times, serif;
 }
 
-/* FOOTER */
+/* -----------------------FOOTER----------------------- */
 footer {
     display: flex;
     align-items: left;
